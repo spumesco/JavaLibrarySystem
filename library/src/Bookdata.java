@@ -5,7 +5,7 @@ public class Bookdata {
 
     public Bookdata() {
         books = new ArrayList<>();
-        // 테스트용 데이터
+       
         books.add(new book("컴퓨터 구조", "신종홍", "001", "한빛"));
         books.add(new book("Evolve", "anne", "002", "길벗"));
         books.add(new book("정의란 무엇인가", "마크 샌더스", "003", "한길"));
