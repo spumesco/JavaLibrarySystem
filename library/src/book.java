@@ -2,10 +2,10 @@ public class book {
     private String title;
     private String author;
     private String code;
-    private String publisher;// 청구기호
-     // 선택사항, 필요하면 추가
+    private String publisher;
+     
 
-    // 생성자
+ 
     public book(String title, String author, String code, String publisher) {
         this.title = title;
         this.author = author;
@@ -13,13 +13,13 @@ public class book {
         this.publisher = publisher;
     }
 
-    // Getter
+   
     public String getTitle() { return title; }
     public String getAuthor() { return author; }
     public String getCode() { return code; }
     public String getPublisher() {return publisher; }
 
-    // 책 정보 출력
+  
     public void printInfo() {
         System.out.println("제목: " + title);
         System.out.println("저자: " + author);
