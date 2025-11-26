@@ -13,7 +13,7 @@ public class Search extends BookData {
             case 1:
                 System.out.print("도서청구기호를 입력하세요: ");
                 String callNum = sc.nextLine();
-                for (book book : books) {
+                for (Book book : books) {
                     if (book.callNumber.equals(callNum)) {
                         book.printInfo();
                         found = true;
@@ -24,7 +24,7 @@ public class Search extends BookData {
             case 2:
                 System.out.print("제목을 입력하세요: ");
                 String title = sc.nextLine();
-                for (book book : books) {
+                for (Book book : books) {
                     if (book.title.equals(title)) {
                         book.printInfo();
                         found = true;
@@ -35,7 +35,7 @@ public class Search extends BookData {
             case 3:
                 System.out.print("저자를 입력하세요: ");
                 String author = sc.nextLine();
-                for (book book : books) {
+                for (Book book : books) {
                     if (book.author.equals(author)) {
                         book.printInfo();
                         found = true;
