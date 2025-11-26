@@ -1,2 +1,3 @@
-public class Add extends Main {
+public class Add {
+    //
 }
