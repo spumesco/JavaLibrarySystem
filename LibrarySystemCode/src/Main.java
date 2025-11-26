@@ -1,4 +1,3 @@
-import java.awt.print.Book;
 import java.util.Scanner;
 
 //TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
@@ -6,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Bookdata data = new Bookdata();
+        BookData data = new BookData();
 
         while (true) {
 

@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
-public class Bookdata {
+public class BookData {
     private ArrayList<book> books;
 
-    public Bookdata() {
+    public BookData() {
         books = new ArrayList<>();
        
         books.add(new book("컴퓨터 구조", "신종홍", "001", "한빛"));
