@@ -1,2 +1,5 @@
-public class Search extends Main {
+public class Search {
+    // 받아야 하는 것: 청구기호 - 제목 - 저자
+    // 해야 하는 것: 분류별(청구기호 기반)/저자별/제목별 도서 검색 기능
+
 }
