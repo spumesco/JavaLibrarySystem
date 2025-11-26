@@ -7,8 +7,8 @@ public class Bookdata {
         books = new ArrayList<>();
        
         books.add(new book("컴퓨터 구조", "신종홍", "001", "한빛"));
-        books.add(new book("Evolve", "anne", "002", "길벗"));
-        books.add(new book("정의란 무엇인가", "마크 샌더스", "003", "한길"));
+        books.add(new book("Evolve", "anne", "002", "Cambridge"));
+        books.add(new book("정의란 무엇인가", "마이크 샌델", "003", "와이즈 베리"));
     }
 
     public void addbook(book book) {
