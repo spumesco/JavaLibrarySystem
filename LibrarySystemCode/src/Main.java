@@ -31,7 +31,7 @@ public class Main {
                     String publisher = sc.nextLine();
 
                     System.out.println("\n===== " + title + " / " + author + " / " + categori + "/" + publisher + " =====");
-                    book newbook = new book(title, author, categori, publisher);
+                    Book newbook = new Book(title, author, categori, publisher);
                     data.addBook(newbook);
                     break;
             }
