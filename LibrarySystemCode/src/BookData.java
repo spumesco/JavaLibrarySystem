@@ -5,14 +5,14 @@ public class Bookdata {
     public Bookdata() {
         books = new ArrayList<>();
 
-        books.add(new book("컴퓨터 구조", "신종홍", "001", "한빛"));
+        books.add(new book("컴퓨구조", "�종, "001", "�빛"));
         books.add(new book("Evolve", "anne", "002", "길벗"));
-        books.add(new book("정의란 무엇인가", "마크 샌더스", "003", "한길"));
+        books.add(new book("�의� 무엇��", "마크 �더, "003", "�길"));
     }
 
     public void addbook(book book) {
         books.add(book);
-        System.out.println("추가가 완료되었습니다.");
+        System.out.println("추�가 �료�었�니");
     }
 
     public void serchBytitle(String title) {
@@ -24,7 +24,7 @@ public class Bookdata {
             }
         }
         if (!found) {
-            System.out.println("검색 결과가 없습니다.");
+            System.out.println("검결과가 �습�다.");
         }
     }
 
@@ -37,7 +37,7 @@ public class Bookdata {
             }
         }
         if (!found) {
-            System.out.println("검색 결과가 없습니다.");
+            System.out.println("검결과가 �습�다.");
         }
     }
 
@@ -50,7 +50,7 @@ public class Bookdata {
             }
         }
         if (!found) {
-            System.out.println("검색 결과가 없습니다.");
+            System.out.println("검결과가 �습�다.");
         }
     }
 
