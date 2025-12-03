@@ -1,15 +1,21 @@
  public class Book {
         private String name;
         private String author;
-        private float category;
+        private String  category;
         private String publisher;
 
-        public Book(String name, String author, float category, String publisher) {
+        public Book() {
+
+        }
+
+        public Book(String name, String author, String category, String publisher) {
             this.name = name;
             this.author = author;
             this.category = category;
             this.publisher = publisher;
         }
+
+
 
         public String getName() {
             return name;
@@ -27,11 +33,11 @@
             this.author = author;
         }
 
-        public Float getCategory() {
+        public String getCategory() {
             return category;
         }
 
-        public void setCategory(Float category) {
+        public void setCategory(String  category) {
             this.category = category;
         }
 
@@ -43,4 +49,13 @@
             this.publisher = publisher;
         }
 
-    }
+     @Override
+     public String toString() {
+         return "Book{" +
+                 "name='" + name + '\'' +
+                 ", author='" + author + '\'' +
+                 ", category='" + category + '\'' +
+                 ", publisher='" + publisher + '\'' +
+                 '}';
+     }
+ }
